@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+    Author: Dylan Connor - djc35@students.ptcollege.edu
+    This page contains the user input fields
+    and displays the program's output
+-->
+<html>
+    <head>
+        <title>Mars Rover Simulation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="jquery.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+    <body>
+        <div>
+  <div>
+    <div style="padding-top:10px;">
+     <input id="plateauColumn" type="text" placeholder="X: X>0 && X<=30">
+     <input id="plateauRow" type="text" placeholder="Y: Y>0 && Y<=14">
+     <button type="button" id="build">Build Map</button>
+     <button type="button" id="resetDisplay">Reset</button>
+       
+  </div>
+   <div id="input" style="padding-top:17px;">  
+     <input id="x" type="text" placeholder="X">
+     <input id="y" type="text" placeholder="Y">
+     <input id="direction" type="text" placeholder="Direction(N,E,S,W)">
+     <input id="command" type="text" placeholder="Input String(L,R,M)">
+     <button type="button" id="start">Start</button>
+     <button type="button" id="reset">Reset</button>
+   </div>
+  </div>
+   
+ </div>
+ <div id="error">
+    <div id="notice"></div>
+  </div>
+<div id="content">
+    
+</div>
+    </body>
+</html>
